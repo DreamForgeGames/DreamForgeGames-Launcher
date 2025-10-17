@@ -69,7 +69,7 @@ async function showMainUI(data){
     refreshServerStatus()
     setTimeout(() => {
         document.getElementById('frameBar').style.backgroundColor = 'rgba(0, 0, 0, 0.5)'
-        document.body.style.backgroundImage = `url('https://raw.githubusercontent.com/DreamForgeGames/DreamForgeGames-Launcher/3edcad1fe76eec74a1a56aa9860a119b33eb877a/app/assets/images/background.png')`
+        document.body.style.backgroundImage = `url('https://dreamforgegames.github.io/DreamForgeGames-Launcher/app/assets/images/background.png')`
         $('#main').show()
 
         const isLoggedIn = Object.keys(ConfigManager.getAuthAccounts()).length > 0
