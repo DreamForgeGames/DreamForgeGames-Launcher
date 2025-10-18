@@ -5,9 +5,9 @@
   "description": "Modded Minecraft Launcher",
   "author": "Daniel Scalzi (https://github.com/dscalzi/)",
   "license": "MIT",
-  "homepage": "https://github.com/DreamForgeGames/DreamForge-Launcher",
+  "homepage": "https://github.com/DreamForgeGames/DreamForgeGames-Launcher",
   "bugs": {
-    "url": "https://github.com/DreamForgeGames/DreamForge-Launcher/issues"
+    "url": "https://github.com/DreamForgeGames/DreamForgeGames-Launcher/issues"
   },
   "private": true,
   "main": "index.js",
@@ -47,6 +47,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DreamForgeGames/DreamForge-Launcher.git"
+    "url": "git+https://github.com/DreamForgeGames/DreamForgeGames-Launcher.git"
   }
 }

@@ -1453,7 +1453,7 @@ function populateAboutVersionInformation(){
  */
 function populateReleaseNotes(){
     $.ajax({
-        url: 'https://github.com/DreamForgeGames/DreamForgeLauncher/releases.atom',
+        url: 'https://github.com/DreamForgeGames/DreamForgeGames-Launcher/releases.atom',
         success: (data) => {
             const version = 'v' + remote.app.getVersion()
             const entries = $(data).find('entry')
