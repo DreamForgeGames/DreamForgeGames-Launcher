@@ -5,21 +5,25 @@
         "smallImageText": "DreamForge-Games Launcher",
         "smallImageKey": "DreamForge-Icon"
     },
+    "java": {
+        "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
+    },
     "rss": "https://forum.westeroscraft.com/forum/news.2/index.rss",
     "servers": [
         {
             "id": "Vanilla-1.21.5",
-            "name": "Vanilla Minecraft Server",
-            "description": "Vanilla Minecraft 1.21.5",
-            "icon": "http://example.com/path-to-vanilla-icon.png",
-            "version": "1.21.5",
-            "address": "play.example.com",
+            "name": "Vanilla Minecraft 1.21.5",
+            "description": "Vanilla Minecraft 1.21.5 without any mods.",
+            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-prod.png",
+            "version": "3.9.4",
+            "address": "mc.westeroscraft.com",
             "minecraftVersion": "1.21.5",
-            "mods": [],
-            "installers": [],
-            "modpack": {
-                "mods": []
-            }
+            "discord": {
+                "shortId": "VanillaMC",
+                "largeImageText": "Vanilla Minecraft 1.21.5",
+                "largeImageKey": "server-prod"
+            },
+            "mainServer": true
         }
     ]
 }
