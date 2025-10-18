@@ -16,7 +16,10 @@
             "address": "play.example.com",
             "minecraftVersion": "1.21.5",
             "mods": [],
-            "installers": []
+            "installers": [],
+            "modpack": {
+                "mods": []
+            }
         }
     ]
 }
