@@ -1,13 +1,20 @@
 {
     "version": "1.0.0",
+    "discord": {
+        "clientId": "1429070447734947850",
+        "smallImageText": "DreamForge-Games Launcher",
+        "smallImageKey": "DreamForge-Icon"
+    },
     "rss": "https://forum.westeroscraft.com/forum/news.2/index.rss",
     "servers": [
         {
-            "id": "vanilla-1.21.5",
-            "name": "Vanilla Minecraft 1.21.5",
-            "minecraftVersion": "1.21.5",
+            "id": "Vanilla-1.21.5",
+            "name": "Vanilla Minecraft Server",
+            "description": "Vanilla Minecraft 1.21.5",
+            "icon": "http://example.com/path-to-vanilla-icon.png",
+            "version": "1.21.5",
             "address": "play.example.com",
-            "modules": []
+            "minecraftVersion": "1.21.5"
         }
     ]
 }
