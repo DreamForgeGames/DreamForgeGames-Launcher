@@ -1,6 +1,6 @@
-# Microsoft Authentication
+d# Microsoft Authentication
 
-Authenticating with Microsoft is fully supported by Helios Launcher.
+Authenticating with Microsoft is fully supported by DreamForge-Games Launcher.
 
 ## Acquiring an Entra Client ID
 

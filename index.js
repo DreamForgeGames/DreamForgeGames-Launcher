@@ -16,6 +16,10 @@ const LangLoader = require('./app/assets/js/langloader')
 // Setup Lang
 LangLoader.setupLanguage()
 
+// (No custom userData override) The application uses the default
+// Electron userData location. To change this, edit the code here
+// if needed. Do not rely on an environment variable.
+
 // Setup auto updater.
 function initAutoUpdater(event, data) {
 
@@ -245,7 +249,7 @@ function createWindow() {
     remoteMain.enable(win.webContents)
 
     const data = {
-        bkid: Math.floor((Math.random() * fs.readdirSync(path.join(__dirname, 'app', 'assets', 'images', 'backgrounds')).length)),
+        bkid: "", 
         lang: (str, placeHolders) => LangLoader.queryEJS(str, placeHolders)
     }
     Object.entries(data).forEach(([key, val]) => ejse.data(key, val))

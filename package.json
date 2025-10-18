@@ -1,13 +1,13 @@
 {
-  "name": "helioslauncher",
+  "name": "dreamforge-launcher",
   "version": "2.2.1",
-  "productName": "Helios Launcher",
+  "productName": "DreamForge-Games Launcher",
   "description": "Modded Minecraft Launcher",
   "author": "Daniel Scalzi (https://github.com/dscalzi/)",
-  "license": "UNLICENSED",
-  "homepage": "https://github.com/dscalzi/HeliosLauncher",
+  "license": "MIT",
+  "homepage": "https://github.com/DreamForgeGames/DreamForge-Launcher",
   "bugs": {
-    "url": "https://github.com/dscalzi/HeliosLauncher/issues"
+    "url": "https://github.com/DreamForgeGames/DreamForge-Launcher/issues"
   },
   "private": true,
   "main": "index.js",
@@ -17,7 +17,8 @@
     "dist:win": "npm run dist -- -w",
     "dist:mac": "npm run dist -- -m",
     "dist:linux": "npm run dist -- -l",
-    "lint": "eslint --config .eslintrc.json ."
+    "lint": "eslint --config .eslintrc.json .",
+    "build": "electron-builder --config electron-builder.yml"
   },
   "engines": {
     "node": "20.x.x"
@@ -46,6 +47,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+    "url": "git+https://github.com/DreamForgeGames/DreamForge-Launcher.git"
   }
 }
