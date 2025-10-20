@@ -14,4 +14,4 @@ const api = new DistributionAPI(
     false
 )
 
-exports.DistroAPI = api
+exports.DistroAPI = api 
